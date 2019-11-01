@@ -1,7 +1,7 @@
 ## 2.11 升级过程中提示get board_id failed
 ### 问题描述
 使用MindSpore Studio在线升级功能升级Atlas 200 Developer Kit开发板过程中提示“check board_id failed to upgrade Mini...”升级错误，检查升级日志文件upgradeMini.log提示“get board_id failed”，如图1.1所示。
-![图2-6 升级失败日志信息](./img/2-6.jpg)
+![图2-6 升级失败日志信息](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-6.jpg)
 
 
 ### 可能原因

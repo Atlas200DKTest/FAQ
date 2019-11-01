@@ -1,7 +1,7 @@
 ## 4.7 Presenter Server启动时报Permission denied:xxx/tornado-6.0.2.egg-info
 ### 问题描述
 Presenter Server服务启动时报“Permission denied: '/usr/local/lib/python3.5/dist-packages/tornado-6.0.2.egg-info"，如下图所示。
-![图4-19 Presenter Sever服务启动报错](./img/4-19.png)
+![图4-19 Presenter Sever服务启动报错](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-19.png)
 
 
 ### 解决方法

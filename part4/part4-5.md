@@ -5,10 +5,10 @@
 在MindSpore Studio所在服务器中执行如下命令检查已部署的交叉编译环境。
 ls -alF /usr/lib/aarch64-linux-gnu
 如下图所示，表示当前MindSpore Studio所在服务器未配置交叉编译环境。
-![图4-15未配置交叉编译环境](./img/4-15.png)
+![图4-15未配置交叉编译环境](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-15.png)
 
 
 请参考《Ascend 310 Atlas 200 Developer Kit 使用指导》中的配置交叉编译环境章节进行交叉编译环境的配置。
 已配置交叉编译环境的回显如下图所示。
-![图4-16已配置交叉编译环境](./img/4-16.png)
+![图4-16已配置交叉编译环境](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-16.png)
 

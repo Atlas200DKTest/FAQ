@@ -6,22 +6,22 @@
   以SSH方式登录Atlas 200 DK开发者板，日志文件都存储在/var/dlog/路径下以时间戳命名的文件中，如下图所示。
 
 但此日志文件是无法直接查看的，需要通过MindSpore Studio进行解析查看。
-![log](./img/6-5-1.png)
+![log](https://gitee.com/Atlas200DK/FAQ/raw/master/part6/img/6-5-1.png)
 #### 步骤 2
   登录MindSpore Studio，单击左下角的Log标签。
-![log标签](./img/6-5-2.png)
+![log标签](https://gitee.com/Atlas200DK/FAQ/raw/master/part6/img/6-5-2.png)
 
 #### 步骤 3
   点击左上角Log List旁边的连接图标，在弹框中输入开发板IP，再单击host-0即可查看开发板所有报错日志。
 
-![log界面](./img/6-5-3.png)
+![log界面](https://gitee.com/Atlas200DK/FAQ/raw/master/part6/img/6-5-3.png)
 日志示例如下图所示：
 
-![log日志](./img/6-5-4.png)
+![log日志](https://gitee.com/Atlas200DK/FAQ/raw/master/part6/img/6-5-4.png)
 开发板记录的所有应用的报错日志都在此文件中，每次有新的报错都会把日志追加到文件最后。所以，如果日志较多，则不好定位错误信息，此时可以先登录开发者板，执行如下命令清除当前已有日志：
 rm /var/dlog/*
 然后重新运行应用程序复现错误，再次登录MindSpore Studio查看日志即可。
 如下图所示，当前为运行人脸检测应用程序的报错信息，由日志定位出摄像头通道Channel-2不通（Camera[1]对应Channel-2，Camera[0]对应为Channel-1），需检查是摄像头所属Channel是否配置错误。
 
-![channel](./img/6-5-5.png)
+![channel](https://gitee.com/Atlas200DK/FAQ/raw/master/part6/img/6-5-5.png)
 ----结束

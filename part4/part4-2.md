@@ -2,7 +2,7 @@
 ### 问题描述
 通过MindSpore Studio模型导入功能导入fcn网络模型成功。
 执行如下推理流程，输出日志报执行成功，但模型推理结果为0，输出结果错误，推理流程如图4-3所示。
-![图4-3语义分割编排流程](./img/4-3.png)
+![图4-3语义分割编排流程](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-3.png)
 
 
 ### 解决方法
@@ -10,7 +10,7 @@
 #### 步骤 1查看模型要求的高和宽。
 可通过以下两种方法查看网络模型对图片的大小要求：
 通过MindSpore Studio导入网络模型时，通过如图4-4所示参数获取模型对图片高和宽的要求。
-![图4-4模型导入示例](./img/4-4.png)
+![图4-4模型导入示例](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-4.png)
 
 上图所示的H与W的值分别为此导入模型对处理的图片高和宽的要求。
 通过查看网络模型的prototxt文件的input_param参数。
@@ -32,7 +32,7 @@ layer {
 #### 步骤 2设置图片预处理节点的resize属性。
 设置ImagePreProcess节点的Resize属性的width与height分别为步骤1中的宽与高。
 
-![宽高设置](./img/4-2-2.png)
+![宽高设置](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-2-2.png)
 
 
 

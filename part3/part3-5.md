@@ -3,7 +3,7 @@
 ShuffleNet模型转换的时候选择8bit量化后模型转换失败，convertModel.log日志如下：
 [ERROR] FMK:2019-05-23-10:20:29.220.547 CreateOp:framework/domi/calibration/op/op_factory.cpp:20:"OpFactory::CreateOp: Not supported OP, type = ShuffleChannel"
 如下图所示：
-![图3-8模型转换失败日志](./img/3-8.jpg)
+![图3-8模型转换失败日志](https://gitee.com/Atlas200DK/FAQ/raw/master/part3/img/3-8.jpg)
 
 
 ### 解决方法

@@ -1,16 +1,16 @@
 ## 3.2 模型转换时报Error parsing text-format...
 ### 问题描述
 模型转换时，出现如下图所示错误信息。
-![图3-2模型转化失败](./img/3-2.jpg)
+![图3-2模型转化失败](https://gitee.com/Atlas200DK/FAQ/raw/master/part3/img/3-2.jpg)
 
 
 “converModel.log”日志报错如下：
-![图3-3模型转换日志](./img/3-3.jpg)
+![图3-3模型转换日志](https://gitee.com/Atlas200DK/FAQ/raw/master/part3/img/3-3.jpg)
 
 
 ### 解决方法
 从日志中推测模型中有数据应该为整数，但实际输入为带有@符号的字符。于是检查模型文件，发现定义的维度参数不对，如下图所示。
-![图3-4模型文件维度定义](./img/3-4.jpg)
+![图3-4模型文件维度定义](https://gitee.com/Atlas200DK/FAQ/raw/master/part3/img/3-4.jpg)
 
 
 修改模型文件中的维度为正确的维度即可导入成功。

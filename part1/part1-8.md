@@ -1,7 +1,7 @@
 ## 1-8  卸载过程中MongoDB服务停止失败
 ### 问题描述
 卸载过程中，由于异常操作（例如手动删除数据库文件），导致MongoDB服务停止失败，而造成卸载失败，如图1-10所示。
-![图1-10卸载过程中MongoDB服务停止失败](./img/1-10.jpg ''1-10'')
+![图1-10卸载过程中MongoDB服务停止失败](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-10.jpg ''1-10'')
 
 ### 解决方法
 可以使用Linux中kill或者pkill命令强制停止MongoDB。例如使用pkill mongodb命令，之后再进行卸载操作。

@@ -5,7 +5,8 @@
   将制作好的SD卡插入开发者板，并通过USB方式连接UI Host，上电、开发者板启动完成后，UI Host侧无虚拟网卡信息。
   将制作好的SD卡插入开发者板，并通过NIC方式连接UI Host，上电、开发者板启动完成，配置UI Host网卡信息后，UI Host无法与开发者板通信。
 ### 解决思路
-按照如图2-1所示流程进行排查。![图1.1 Atlas 200 DK无法连接UI Host问题排查思路](./img/2-1.jpg)
+按照如图2-1所示流程进行排查。
+![图1.1 ](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-1.jpg)
 ### 解决方法
 #### 步骤1 确认SD卡制作正确并成功。
 请查看制卡脚本所在目录下的sd_card_making_log查看是否制卡成功，若制卡失败，请参考制作SD卡重新制作SD卡。
@@ -30,7 +31,7 @@
 3.进行连接配置。
 −连接名称：自定义连接名称。
 −类型：选择COMX，可以通过计算机的设备管理器查看可用的COM端口，拔插UI Host上的串口连接线，判断Atlas 200 DK使用的哪个COM口，如图2-2所示。
-![图2-2查看COM端口](./img/2-2.jpg)
+![图2-2查看COM端口](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-2.jpg)
 −设置波特率为115200。
 4.单击确定。
 #### 步骤 7 上电Atlas 200 DK开发者板，在IPOP的COM连接窗口中查看Atlas 200 DK启动信息。
