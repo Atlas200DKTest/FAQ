@@ -7,8 +7,10 @@ VMWare虚拟机环境下Ubuntu连接开发者板（USB）后ifconfig查看无虚
 若不正常，请更换USB连接线。
 2.查看USB与虚拟机是否已经连接。
 连接方法如下图所示。
+
 ![连接方法](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-6-1.png)
 3.如果已经设置USB连接至虚拟机，仍然不出现虚拟网卡，原因可能是VMWare中没有设置USB3.0兼容，请按照以下方法进行设置。
 在VMWARE菜单栏中选择“虚拟机->设置”，打开虚拟机设置页面，然后USB兼容性选择“USB 3.0”，如下图所示。
+
 ![USB设置](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-6-2.png)
 然后再执行ifconfig命令查看IP即可。

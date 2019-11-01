@@ -6,4 +6,5 @@
 解决方法如下：
 1.在Windows下查询局域网DNS服务器地址。
 2.更改/etc/resolv.conf文件中的namesever 为1查询到的地址即可。
+
 ![img](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-5-1.png)

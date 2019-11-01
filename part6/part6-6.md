@@ -1,6 +1,7 @@
 ## 6.6 在Github上下载软件包注意事项
 在Github上下载软件包时，请不要整仓Clone，整仓Clone会非常慢，且容易软件包下载不完整。
 建议单击后缀为rar的软件包，一个一个下载，如下所示：
+
 ![下载](https://gitee.com/Atlas200DK/FAQ/raw/master/part6/img/6-6-1.png)
 单击XXX.rar，在进入的页面中单击Download按钮进行软件包下载。
 

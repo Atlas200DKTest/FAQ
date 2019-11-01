@@ -1,6 +1,7 @@
 ## 2.13 开发者板连网后通过apt-get命令安装软件失败
 ### 问题描述
 开发者板参照6.2USB连接方式时如何配置开发者板通过MindSpore Studio服务器连接网络配置好网络后，执行在开发者板上执行apt-get install xxx命令下载软件时出现如下错误信息。
+
 ![错误信息](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-13.jpg)
 
 ### 解决方法

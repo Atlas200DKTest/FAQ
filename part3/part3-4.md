@@ -1,7 +1,8 @@
 ## 3.4 Offline Model导入Davinci模型文件时提示Not a legal om file
 ### 问题描述
 在“Tool > Conver Model”中选择“Offline Model”导入本地已经转换好的Davinci模型时报如下错误：
-![图3-7Offline Model导入Davinci失败](https://gitee.com/Atlas200DK/FAQ/raw/master/part3/img/3-7.jpg)
+
+![图3-7](https://gitee.com/Atlas200DK/FAQ/raw/master/part3/img/3-7.jpg)
 
 
 ### 解决方法

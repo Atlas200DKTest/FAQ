@@ -16,18 +16,21 @@
 ### 解决方法
 #### 问题1：流程编排不对
 按照图4-8所示进行目标检测流程编排。
+
 ![图4-8目标检测网络编排流程](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-8.png)
 
 
 其中MindInferenceEngine的默认输入端口个数为2，需要修改此节点的InputNum值为3，修改方法参见图4-9。
-![图4-9MindInferenceEngine节点输入参数设置](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-9.png)
+
+![图4-9](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-9.png)
 
 
 FaseRCNNImageInfo为MindSpore Studio内置的仅用于FasterRcnn网络的输入图片处理Engine，作为MindInferenceEngine的第三个输入。
 #### 问题2：图片预处理节点的Resize属性值设置不正确，未按照模型要求的宽与高进行设置。
 a.查看模型要求宽与高，具体查看方法请参见步骤1。
 b.设置ImagePreProcess节点的Resize属性的width与height为模型要求的宽和高，如图4-10所示。
-![图4-10ImagePreprocess节点Resize设置](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-10.png)
+
+![图4-10](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-10.png)
 
 
 

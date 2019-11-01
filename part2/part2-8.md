@@ -5,12 +5,14 @@
 
 
 尝试直接使用命令ssh -p 22 HwHiAiUser@192.168.1.2，输入默认密码Mind@123，显示Permission Denied。
+
 ![图2-4登录失败](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-4.png)
 
 
 ### 解决方法
 1.从MindSpore Studio所在服务器SSH登录到开发者板失败，首先查看一下MindSpore Studio所在服务器的IP地址，如下图所示。
-![图2-5MindSpore Studio所在服务器IP地址查看](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-5.png)
+
+![图2-5](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-5.png)
 
 
 由上图可看出USB虚拟网卡的IP地址与开发者板的IP地址不在同一网段。所以需要配置MindSpore Studio的USB网卡地址为与开发者板192.168.1.2在同一网段的IP地址。

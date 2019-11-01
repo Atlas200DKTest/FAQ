@@ -6,9 +6,11 @@
   以SSH方式登录Atlas 200 DK开发者板，日志文件都存储在/var/dlog/路径下以时间戳命名的文件中，如下图所示。
 
 但此日志文件是无法直接查看的，需要通过MindSpore Studio进行解析查看。
+
 ![log](https://gitee.com/Atlas200DK/FAQ/raw/master/part6/img/6-5-1.png)
 #### 步骤 2
   登录MindSpore Studio，单击左下角的Log标签。
+  
 ![log标签](https://gitee.com/Atlas200DK/FAQ/raw/master/part6/img/6-5-2.png)
 
 #### 步骤 3

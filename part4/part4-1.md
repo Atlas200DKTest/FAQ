@@ -11,7 +11,8 @@ remote_handle failed, err -1
 按照以下步骤进行排查：
 #### 步骤 1检查工程类型是否是Atlas DK。
 选择工程，在菜单栏选择File > Project Configuration，查看工程的Target是否为Atlas DK。
-![图4-1查看工程类型](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-1.png)
+
+![图4-1 ](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-1.png)
 
 如果是Atlas DK =>步骤2。
 如果不是Atlas DK，请修改工程类型。
@@ -30,7 +31,8 @@ MindSpore Studio与Atlas DK开发板之间存在证书认证，如果MindSpore S
 #### 步骤 4检查编排流程中的图片预处理节点的resize大小是否与模型要求大小一致。
 可通过以下两种方法查看网络模型对图片的大小要求：
 	通过MindSpore Studio导入网络模型时，通过如图4-2所示参数获取模型对图片高和宽的要求。
-    ![图4-2模型导入示例](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-2.png)
+	
+    ![图4-2](https://gitee.com/Atlas200DK/FAQ/raw/master/part4/img/4-2.png)
 
 
 上图所示的H与W的值分别为此导入模型对处理的图片高和宽的要求。
