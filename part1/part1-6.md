@@ -12,7 +12,7 @@ MindSpore Studio不支持服务器重启自动拉起MindSpore Studio的相关服
 
 2.执行手动启动命令：bash start.sh
 
-![图1-9](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-9.jpg）
+![图1-9](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-9.jpg)
 
 
 如上表示已经执行启动MindSpore Studio成功。
