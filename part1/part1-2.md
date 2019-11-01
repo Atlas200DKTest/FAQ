@@ -1,6 +1,7 @@
 ## 1.2 MindSpore Studio安装完成无法登录，界面报错IP不正确
 ### 问题现象
 MindSpore Studio安装完成后，登录时界面报如下错误：
+
 ![图1.1](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-1.jpg)
 
 ### 解决思路
