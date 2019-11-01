@@ -37,11 +37,11 @@ su root
 usermod -a -G  B882 msvpUser
 再次查看msvpUser用户的属组，已经加入B882属组，如图1-4所示。
 
-![图1-4 ](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-4.jpg ''图4'')
+![图1-4 ](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-4.jpg)
 
 4. 切换到msvpUser用户，再次进入ascend目录，看到已经可以进入该目录，如图1-5所示。
 
-![图1-5](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-5.jpg ''图5'')
+![图1-5](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-5.jpg)
 ####说明
 上述示例中的目录“ascend”以及群组“B882”都为样例，请以实际环境中的为准。
 以上问题都检查完毕，卸载MindSpore Studio后重新安装。
