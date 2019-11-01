@@ -22,7 +22,7 @@ chmod 750 [安装目录]
 username为MindSpore Studio安装用户名，请修改为实际路径。
 3. 查看该用户所属的群组为msvpUser，ascend，如图1-2所示。
 
-![图1-2 ](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-2.jpg ''图2'')
+![图1-2 ](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-2.jpg)
 
 ####处理建议2
 1. 在出现“Permission denied”的目录下执行ls -l 命令查看当前目录权限与属主，如图1.1所示。当前目录所属的群组为“B882”。

@@ -2,7 +2,7 @@
 ### 问题描述
 从https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet下载了googlenet的prototxt与caffemodel，导入时失败，如图3-1所示。
 
-![图3-1模型转化失败](https://gitee.com/Atlas200DK/FAQ/raw/master/part3/img/3-1.jpg ''图3-1'')
+![图3-1模型转化失败](https://gitee.com/Atlas200DK/FAQ/raw/master/part3/img/3-1.jpg)
 
 
 “converModel.log”日志报错如下：
