@@ -27,7 +27,7 @@ username为MindSpore Studio安装用户名，请修改为实际路径。
 ####处理建议2
 1. 在出现“Permission denied”的目录下执行ls -l 命令查看当前目录权限与属主，如图1.1所示。当前目录所属的群组为“B882”。
 
-![图1-3](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-3.jpg ''1-3'')
+![图1-3](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-3.jpg)
 
 2. 查看当前目录权限是否为750：
 图1.1所示当前文件夹权限为750，如果权限不足750，请执行如下命令增加权限：chmod 750 ascend
