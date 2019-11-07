@@ -1,6 +1,6 @@
-## 1.5 MindSpore Studio或DDK安装过程中提示pip2或pip不可用
+## 1.5 MindStudio或DDK安装过程中提示pip2或pip不可用
 ### 问题描述
-MindSpore Studio或DDK安装过程中提示pip2或pip不可用，并退出安装，提示信息如图1-6、图1-7所示。
+MindStudio或DDK安装过程中提示pip2或pip不可用，并退出安装，提示信息如图1-6、图1-7所示。
 
 ![图1-6](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-6.jpg)
 
