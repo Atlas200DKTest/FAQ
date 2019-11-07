@@ -1,4 +1,4 @@
-## 1.7 MindSpore Studio无法正常启动--删除
+## 1.7 MindStudio无法正常启动--删除
 ### 问题描述
 Mongodb服务没有启动成功或启动失败。
 #### 可能原因1
@@ -12,4 +12,4 @@ ps -ef | grep mongod
 ERROR:child process failed, exited with error number 100
 #### 解决方法2
 该问题可能的原因是上一次启/停mongdob异常，导致mongodb数据库锁死。
-以MindSpore Studio安装用户登录后台服务器，在~/tools/db目录下查看是否存在mongod.lock，若存在，则说明确实由于数据库死锁，删除该文件重新安装即可，如果不生效，则删除安装路径下的整个db文件夹。
+以MindStudio安装用户登录后台服务器，在~/tools/db目录下查看是否存在mongod.lock，若存在，则说明确实由于数据库死锁，删除该文件重新安装即可，如果不生效，则删除安装路径下的整个db文件夹。
