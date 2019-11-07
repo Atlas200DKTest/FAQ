@@ -1,5 +1,5 @@
 # 目录
-##  [MindSpore部署问题](part1/README.md)
+##  [MindStudio部署问题](part1/README.md)
 ##  [开发板部署问题](part2/README.md)
 ##  [模型转换](part3/README.md)
 ##  [应用程序](part4/README.md)
