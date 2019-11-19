@@ -57,3 +57,10 @@
     * [6.4 如何在Atlas 200 DK上运行交叉编译的OpenCV库](part6/part6-4.md)
     * [6.5 如何查看在开发者板上运行的应用程序的日志](part6/part6-5.md)
     * [6.6 在Github上下载软件包注意事项](part6/part6-6.md)
+    
+* [常用命令](part7/README.md)
+    *  [7.1 git常用命名](part7/part7-1.md)
+    *  [7.2 docker常用命令]（part7/part7-2.md）
+    *  [7.3 linux常用命令](part7/part7-3.md)
+    *  [7.4 shell常用命令](part7/part7-4.md)
+    *  [7.5 md文件相关](part7/part7-5.md)

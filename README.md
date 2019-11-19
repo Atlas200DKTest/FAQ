@@ -5,6 +5,7 @@
 ##  [应用程序](part4/README.md)
 ##  [其他](part5/README.md)
 ##  [常用操作](part6/README.md)
+##  [常用命令](part7/README.md)
 
 
 
