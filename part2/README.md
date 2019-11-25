@@ -13,5 +13,7 @@
 ## [2.11 升级过程中提示get board_id failed](part2-11.md)
 ## [2.12 开发者板USB方式连接UI Host，通过UI Host连网相关案例](part2-12.md)
 ## [2.13 开发者板连网后通过apt-get命令安装软件失败](part2-13.md)
-
+## [2.14 重启操作系统后USB网卡需要重新配置](part2-14.md)
+## [2.15 Atlas 200 DK如何实现SSH免密登录](part2-15.md)
+## [2.16 如何配置开发者板通过网口直接连接网络](part2-16.md)
 

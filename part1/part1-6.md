@@ -10,7 +10,7 @@ MindStudio不支持服务器重启自动拉起MindStudio的相关服务。
 ![图1-8](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-8.jpg)
 
 
-2.执行手动启动命令：bash start.sh
+2. 执行手动启动命令：bash start.sh
 
 ![图1-9](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-9.jpg)
 

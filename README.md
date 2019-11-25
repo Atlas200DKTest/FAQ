@@ -5,5 +5,5 @@
 ##  [应用程序](part4/README.md)
 ##  [其他](part5/README.md)
 ##  [常用操作](part6/README.md)
-
+##  [图片处理相关案例](part7/README.md)
 
