@@ -6,5 +6,5 @@
 
 参数'$0'指的是脚本运行时所在的路径，而并不是脚本文件存放的路径。因此想要获取一个脚本的存放路径，需要使用Shell脚本的内置变量 BASH_SOURCE。
 
-例如通过以下语句获取shell脚本所在路径：script_path=$(cd $(dirname "${BASH_SOURCE}"); pwd -P)
+例如通过以下语句获取shell脚本所在路径：script_path=$(cd `dirname "${BASH_SOURCE}"`; pwd -P)
 
