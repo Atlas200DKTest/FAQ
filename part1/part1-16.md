@@ -2,7 +2,7 @@
 ### 问题现象
 日志时间与实际不符合
 
-![图1-16-1](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-16-1.jpg)
+![图1-16-1](https://gitee.com/Atlas200DK/FAQ/raw/master/part1/img/1-16-1.png)
 
 ### 问题解决
 登录开发者板使用命令
