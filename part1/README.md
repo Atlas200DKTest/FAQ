@@ -10,6 +10,11 @@
 ## [1.9 MindStudio安装失败](part1-9.md)
 ## [1.10 联机帮助无法查看文档](part1-10.md)
 ## [1.11 如何升级Linux内核到4.18版本](part1-11.md)
+## [1.12 打开mindstudio后显示无法初始化IDE是什么问题：Unable to initialize IDE](part1-12.md)
+## [1.13 mindstudio升级IDE版本后，运行protoc找不到库protoc.so.18](part1-13.md)
+## [1.14 C31版本的部署脚本，在调用其他脚本的时候，不能获取被调用脚本的所在路径。](part1-14.md)
+## [1.15 如何离线安装Mind Studio的安装依赖？](part1-15.md)
+## [1.16 Mind Studio上日志的时间不正确，显示1月1日，怎么修改？](part1-16.md)
 
 
 
