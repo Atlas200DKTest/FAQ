@@ -16,4 +16,12 @@
 ## [2.14 重启操作系统后USB网卡需要重新配置](part2-14.md)
 ## [2.15 Atlas 200 DK如何实现SSH免密登录](part2-15.md)
 ## [2.16 如何配置开发者板通过网口直接连接网络](part2-16.md)
+## [2.17 Brazil,制卡报错](part2-17.md)
+## [2.18 Mind Studio自定义工程样例hiaiengine编译运行都正常，但是没有matrix_dvpp_framework_test_result文件生成？](part2-18.md)
+## [2.19 无法连接开发板port 22: No route to host](part2-19.md)
+## [2.20 快速流程编排运行Resnet18的Demo无结果，直接在开发板上运行可执行程序，报错：cannot find libteec.so.1.0](part2-20.md)
+## [2.21 修改后处理代码后，本来的SendData分支由于修改不当，没有执行，导致程序无法停止](part2-21.md)
+## [2.22 开发板上python3里安装opencv](part2-22.md)
+## [2.23 Host和Device可以交叉运行么](part2-23.md)
+## [2.24 运行profiling 报 not enough disk space](part2-24.md)
 
