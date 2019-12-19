@@ -3,7 +3,7 @@
 运行 tensorflow 代码报错 tf.gfile.exists is deprecated，please use tf.io.gfile.exists instead 
 
 
-![img](https://gitee.com/Atlas200DK/FAQ/raw/master/part5/img/4-14-1.png)
+![img](https://gitee.com/Atlas200DK/FAQ/raw/master/part5/img/5-14-1.png)
 
 
 ### 解决方法
