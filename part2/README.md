@@ -1,4 +1,4 @@
-# 目录
+# 开发者板部署配置案例
 
 ## [2.1 开发者板SD卡制卡失败](part2-1.md)
 ## [2.2 SD卡制作过程中人为拔卡导致系统存在冗余挂载盘	](part2-2.md)
@@ -24,4 +24,5 @@
 ## [2.22 开发板上python3里安装opencv](part2-22.md)
 ## [2.23 Host和Device可以交叉运行么](part2-23.md)
 ## [2.24 运行profiling 报 not enough disk space](part2-24.md)
-
+## [2.25 如何在单板上使用gdb查看异常](part2-25.md)
+## [2.26 Atlas200DK单板支持jsoncpp](part2-26.md)

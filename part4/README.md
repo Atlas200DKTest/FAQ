@@ -1,4 +1,4 @@
-# 目录
+# 应用程序执行案例
 ##  [4.1 编排流程运行失败常见问题检查思路](part4-1.md)
 ##  [4.2 应用fcn8s模型执行语义分割流程推理结果不正确](part4-2.md)
 ##  [4.3 应用faster-R-cnn网络模型执行目标检测报no result file](part4-3.md)
@@ -10,6 +10,18 @@
 ##  [4.9 远程执行run用例时提示 IDE-daemon-hiai 进程停止](part4-9.md)
 ##  [4.10 人脸检测应用程序停止异常](part4-10.md)
 ##  [4.11 在MindSpore Studio中执行Profiling报Import analysis failed的错误](part4-11.md)
+##  [4.12 textfile busy](part4-12.md)
+##  [4.13 Engine实现代码中的InputSize是什么](part4-13.md)
+##  [4.14 如何替换应用样例中的模型文件](part4-14.md)
+##  [4.15 应用程序中如何使用opencv](part4-15.md)
+##  [4.16 如何使用Presenter Server](part4-16.md)
+##  [4.17 运行人脸检测的deploy.sh时提示IDE-daemon-client错误](part4-17.md)
+##  [4.18 如何快速停止Presenter Server进程](part4-18.md)
+##  [4.19 Presenter Server显示文字时有重叠现象](part4-19.md)
+##  [4.20 重复运行样例后失败](part4-20.md)
+##  [4.21 样例程序中RTSP视频流无法使用](part4-21.md)
+##  [4.22 车辆检测应用启动报channel is not open, send message failed错误](part4-22.md)
+##  [4.23 怎么修改人脸检测样例的帧数达到每秒推理20帧的图片](part4-23.md)
 
 
 
