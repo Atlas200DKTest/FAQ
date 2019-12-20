@@ -22,6 +22,22 @@
 ##  [4.21 样例程序中RTSP视频流无法使用](part4-21.md)
 ##  [4.22 车辆检测应用启动报channel is not open, send message failed错误](part4-22.md)
 ##  [4.23 怎么修改人脸检测样例的帧数达到每秒推理20帧的图片](part4-23.md)
+##  [4.24 跑社区案例人脸检测时，到build的一步报错,无法进行编译](part4-24.md)
+##  [4.25 客户需要在小猪佩奇样例中存盘图片](part4-25.md)
+##  [4.26 摄像头接反导致人脸检测运行无输出](part4-26.md)
+##  [4.27 sample-objectdetection的图像缩放函数自动将缩放后的图片对齐](part4-27.md)
+##  [4.28 在运行mindstudio时，切换其他工程，运行报错](part4-28.md)
+##  [4.29 调试软件过程中，将其中一个无用engine从graph.config中去掉，编译运行出现错误](part4-29.md)
+##  [4.30 C31版本分类以及目标检测的sample，在开发板侧运行python脚本出错，报错：找不到可执行文件](part4-30.md)
+##  [4.31 将人脸检测示例部署在Mind Studio的过程中手动添加了channel.h文件、errors.h文件到项目中，执行报错找不到该文件](part4-31.md)
+##  [4.32 路由方式连接虚拟机，运行sample失败，报错 Failed to connect to server](part4-32.md)
+##  [4.33 样例工程人体检测PresenterServer无显示
+](part4-33.md)
+##  [4.34 socket连接失败：open channel failed](part4-34.md)
+##  [4.35 DDK样例 classify_net 运行没有结果](part4-35.md)
+##  [4.36 结束工程时报错：please log in to kill it manually](part4-36.md)
+##  [4.37 求问人脸检测实验执行部署文件出现如下问题该如何解决](part4-37.md)
+##  [4.38 face-detection-sample-python的Process入口是如何被使用的](part4-38.md)
 
 
 
