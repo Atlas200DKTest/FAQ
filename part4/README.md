@@ -31,8 +31,7 @@
 ##  [4.30 C31版本分类以及目标检测的sample，在开发板侧运行python脚本出错，报错：找不到可执行文件](part4-30.md)
 ##  [4.31 将人脸检测示例部署在Mind Studio的过程中手动添加了channel.h文件、errors.h文件到项目中，执行报错找不到该文件](part4-31.md)
 ##  [4.32 路由方式连接虚拟机，运行sample失败，报错 Failed to connect to server](part4-32.md)
-##  [4.33 样例工程人体检测PresenterServer无显示
-](part4-33.md)
+##  [4.33 样例工程人体检测PresenterServer无显示](part4-33.md)
 ##  [4.34 socket连接失败：open channel failed](part4-34.md)
 ##  [4.35 DDK样例 classify_net 运行没有结果](part4-35.md)
 ##  [4.36 结束工程时报错：please log in to kill it manually](part4-36.md)
