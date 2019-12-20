@@ -1,4 +1,4 @@
-## 6.9 如何查看在开发者板上运行的应用程序的日志
+## 6.9 重启linux 的网络服务，重起不了
 ### 问题描述
 修改完/etc/network/interfaces文件后，在root用户下使用service networking restart失败。
 
