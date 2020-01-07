@@ -26,7 +26,7 @@ c. 在当前目录下使用dpkg命令安装下载的内核文件。
 dkpg -i *.deb
 如果执行此命令过程中缺少安装依赖，请执行apt-get install -f 命令自动安装缺少的依赖。
 如果执行完上述命令后依旧出现缺失libssl1.1.0(>=1.1.0)的错误信息，请下载如下链接中的附件到Ubuntu服务器任一目录。
-https://bbs.huaweicloud.com/forum/thread-22441-1-1.html
+<https://bbs.huaweicloud.com/forum/thread-22441-1-1.html>
 解压获取libssl1.1_1.1.0g-2ubuntu4.1_amd64.deb软件包，然后使用root用户执行如下命令手工安装libssll.1.1.0。
 dkpg libssl1.1_1.1.0g-2ubuntu4.1_amd64.deb
 然后再到~/kernel_v4.18 目录下进行内核的安装。
