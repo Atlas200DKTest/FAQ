@@ -1,7 +1,7 @@
 ## 2.8 配置交叉编译环境时提示“Pack sysroot.tar.gz failed”
 ### 问题描述
 配置交叉编译环境时提示“Pack sysroot.tar.gz failed”，如下图所示。
-！[图2-3配置交叉编译环境失败](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-8-1.png)
+![图2-3配置交叉编译环境失败](https://gitee.com/Atlas200DK/FAQ/raw/master/part2/img/2-8-1.png)
 
 
 尝试直接使用命令ssh -p 22 HwHiAiUser@192.168.1.2，输入默认密码Mind@123，显示Permission Denied。
